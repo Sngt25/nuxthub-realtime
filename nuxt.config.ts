@@ -18,13 +18,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-03-01',
 
   nitro: {
+    preset: 'cloudflare_durable',
     experimental: {
       websocket: true
     }
-  },
-  // https://hub.nuxt.com/docs/getting-started/installation#options
-  hub: {
-    workers: true
   },
 
   // Development config
