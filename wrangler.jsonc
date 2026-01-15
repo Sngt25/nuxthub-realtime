@@ -3,5 +3,5 @@
   "durable_objects": {
     "bindings": [{ "name": "$DurableObject", "class_name": "$DurableObject" }]
   },
-  "migrations": [{ "tag": "v1", "new_classes": ["$DurableObject"] }]
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["$DurableObject"] }]
 }
